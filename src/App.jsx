@@ -32,7 +32,7 @@ function App () {
         w='100%'
         p={6}
         h={[290, 290, 250]}
-        backgroundImage="url('/src/assets/images/pattern-bg-desktop.png')"
+        bgImage="url('/public/pattern-bg-desktop.png')"
         backgroundPosition='center'
         backgroundRepeat='no-repeat'
         backgroundSize='cover'
