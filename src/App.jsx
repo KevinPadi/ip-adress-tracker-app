@@ -1,4 +1,4 @@
-import { Box, Heading, Input, InputGroup, InputRightElement, IconButton, Image } from '@chakra-ui/react'
+import { Box, Heading, Input, InputGroup, InputRightElement, IconButton } from '@chakra-ui/react'
 import ArrowIcon from './assets/icons/ArrowIcon'
 import ResultBox from './components/ResultBox'
 import Map from './components/Map'
