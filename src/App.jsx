@@ -32,13 +32,13 @@ function App () {
         w='100%'
         p={6}
         h={[290, 290, 250]}
-        // bgImage="url('/pattern-bg-desktop.PNG')"
-        // backgroundPosition='center'
-        // backgroundRepeat='no-repeat'
-        // backgroundSize='cover'
+        bgImage="url('/pattern-bg-mobile.jpg')"
+        backgroundPosition='center'
+        backgroundRepeat='no-repeat'
+        backgroundSize='cover'
       >
         <Heading as='h1' fontSize={['xl', 'xl', '3xl']} fontWeight={600} color='white'>IP Address Tracker</Heading>
-        <Image h='50px' w='100px' objectFit='cover' src='/pattern-bg-desktop.png' />
+        {/* <Image h='50px' w='100px' objectFit='cover' src='/pattern-bg-mobile.jpg' /> */}
         <InputGroup w={[300, 200, 550]}>
           <Input
             value={search}
