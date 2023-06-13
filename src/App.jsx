@@ -32,9 +32,9 @@ function App () {
         w='100%'
         p={6}
         h={[290, 290, 250]}
-        bgImage="url('/public/pattern-bg-desktop.png')"
+        bgImage="url('./public/pattern-bg-desktop.png')"
         backgroundPosition='center'
-        backgroundRepeat='repeat'
+        backgroundRepeat='no-repeat'
         backgroundSize='cover'
       >
         <Heading as='h1' fontSize={['xl', 'xl', '3xl']} fontWeight={600} color='white'>IP Address Tracker</Heading>
