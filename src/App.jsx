@@ -1,4 +1,4 @@
-import { Box, Heading, Input, InputGroup, InputRightElement, IconButton, Image } from '@chakra-ui/react'
+import { Box, Heading, Input, InputGroup, InputRightElement, IconButton } from '@chakra-ui/react'
 import ArrowIcon from './assets/icons/ArrowIcon'
 import ResultBox from './components/ResultBox'
 import Map from './components/Map'
@@ -32,7 +32,7 @@ function App () {
         w='100%'
         p={6}
         h={[290, 290, 250]}
-        bgImage="url('../src/assets/images/pattern-bg-desktop.png')"
+        bgImage="url('/pattern-bg-desktop.png')"
         backgroundPosition='center'
         backgroundRepeat='no-repeat'
         backgroundSize='cover'
