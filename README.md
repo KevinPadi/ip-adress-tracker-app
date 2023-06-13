@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ip-address-tracker-solution-using-react-Bsn5wzgBs6)
+- Live Site URL: [GitHub Pages](https://kevinpadi.github.io/ip-adress-tracker-app/)
 
 ## My process
 
