@@ -30,15 +30,15 @@ function App () {
         flexDirection='column'
         gap={5}
         w='100%'
-        p={0}
+        p={6}
         h={[290, 290, 250]}
         // bgImage="url('/pattern-bg-desktop.PNG')"
         // backgroundPosition='center'
         // backgroundRepeat='no-repeat'
         // backgroundSize='cover'
       >
-        <Heading position='absolute' top={10} as='h1' fontSize={['xl', 'xl', '3xl']} fontWeight={600} color='white'>IP Address Tracker</Heading>
-        <Image w='100%' objectFit='cover' src='/pattern-bg-desktop.png' />
+        <Heading as='h1' fontSize={['xl', 'xl', '3xl']} fontWeight={600} color='white'>IP Address Tracker</Heading>
+        <Image h='50px' w='100px' objectFit='cover' src='/pattern-bg-desktop.png' />
         <InputGroup w={[300, 200, 550]}>
           <Input
             value={search}
