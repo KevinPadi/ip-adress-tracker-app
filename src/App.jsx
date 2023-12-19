@@ -42,7 +42,7 @@ function App () {
         <InputGroup w={[300, 200, 550]}>
           <Input
             value={search}
-            onChange={handleChange} p={6} size='lg' borderRadius={12} bg='whiteAlpha.900' placeholder='Search for any IP address or domain'
+            onChange={handleChange} p={6} size='lg' borderRadius={12} bg='whiteAlpha.900' color='black' placeholder='Search for any IP address or domain'
           />
           <InputRightElement cursor='pointer' w='3rem' h='100%'>
             <IconButton onClick={handleClick} w='100%' h='100%' borderRadius='0px 12px 12px 0px' size='md' bg='black' aria-label='Arrow icon' icon={<ArrowIcon />} />
